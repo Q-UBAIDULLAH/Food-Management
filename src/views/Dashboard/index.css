@@ -1,0 +1,280 @@
+@media (min-width:360px) and (max-width: 768px) {
+  .percent-1{
+    margin-left: 120px !important;
+    margin-top: 500px !important;
+    width: 300px !important;
+    height: 200px !important;
+    /* font-size: 50px !important; */
+  }  
+}
+
+.percent{
+   display: flex;
+
+ /* height: 100vh;
+width: 100vw; 
+margin-top: -110px; */
+height: 100vh;
+background-image: url('../../assets/Fast-Food-Free-PNG-Image.png');
+background-size: cover;
+background-position: center;
+}
+.percent-1{
+    width: 40vw;
+    height: 40vh;
+    border-style: double; 
+border-color: rgb(27, 21, 21);
+    display: flex;
+    justify-content: center;
+   margin-left: 400px;
+margin-top: 110px;
+color: rgb(5, 5, 5);
+backdrop-filter: blur(10px);
+border-radius: 20px;
+font-size: 48px;
+font-family:cursive;
+font-style: italic;
+text-align: center;
+}
+.percent-1:hover{
+    transform: scale(1.3);
+    transition: 1.2s;
+}
+.headings:hover{
+    transform: scale(1.2);
+    transition: 1.2s;
+}
+@media(min-width:360px) and (max-width: 768px) {
+    .header-page-1{
+width: 100vw !important;
+
+    }
+    .navbar{
+        color:white !important;
+
+position: relative;
+left: 310px;
+
+       
+    }
+    .header-page-2{
+        /* margin-left:-550px !important; */
+        margin-right:440px ;
+    }
+    .input-edit{
+        color: rgb(237, 231, 231) !important;
+       position: absolute;
+       left: 340px;
+    }
+    .searchbtn{
+        position: absolute;
+        right: -250px;
+        color: white;
+        font-size: 16px !important;
+    }
+    .mid{
+        position: absolute;
+        top: 700px !important; 
+    }
+    #delicious{
+        color: white !important;
+    }
+
+}
+.header-page{
+   background-image: url('../../assets/hamburger-fries-with-drink-table_1021856-1920.avif');
+    background-size:cover;
+   background-position: center;
+    width: 100vw;
+    height: 100vh;
+    margin-top: -23px;
+    color: white;
+}
+
+.header-page-1{
+     display: flex;
+    justify-content: center;
+   margin-top: 17px;
+   gap: 19px;
+   background-color: rgb(237,237,237,.1);
+  backdrop-filter:blur(250px); 
+width: 1347px;
+  position: fixed;
+ top: 1;
+  
+
+  
+
+}
+
+
+.header-page-2{
+    margin-top: 20px;
+    margin-left: 190px; 
+    padding-left: 120px;
+    
+}
+.input-edit{
+    color: #0b0909e3;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 14px;
+    height: 23px;
+
+
+   
+    
+    background-color: rgb(237,237,237,.1);
+    backdrop-filter:blur(14px);
+
+}
+
+
+
+
+
+.input-edit:hover{
+    background: transparent;
+
+}
+.searchbtn{
+    
+  /* color: #0b0909e3;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 14px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  margin-left: 15px; */
+width: 7.5em;
+height: 3em;
+/* width: 110px;
+height: 39px; */
+border-radius: 30em;
+font-size: 16px;
+/* font-family: inherit; */
+font-family:Georgia, 'Times New Roman', Times, serif;
+border: none;
+position: relative;
+cursor: pointer;
+overflow: hidden;
+z-index: 1;
+/* box-shadow: 3px px 3px #c5c5c5,-6px -6px 12px #ffffff; */
+/* background-color: rgb(97, 106, 123); */
+background-color: rgb(237,237,237,.1);
+    backdrop-filter:blur(14px);
+
+margin-left: 15px;
+font-weight: 550;
+}
+.searchbtn::before{
+    content: "";
+    width: 0;
+    height: 3em;
+    border-radius: 30em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-image: linear-gradient(to right,#0fd850 0%,#f9f047 100%); */
+    background-image: linear-gradient(to right,#6e2459 0%,#ee7519 100%);
+    transition: 1.5s ease;
+    display: block;
+    z-index: -1;
+color: white;
+}
+
+.searchbtn:hover::before{
+    /* background: transparent;
+    box-shadow:0 0 17px 1px
+    #00fffc; */
+
+    width: 9em;
+
+}
+.navbar{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+
+
+.mid{
+    position: absolute;
+    top: 200px;
+ width: 600px;
+    backdrop-filter: blur(7px);
+ /* background-color: rgba(0, 0, 0, 0.335); */
+border-radius: 20px;
+box-shadow: 1px 1px 5px 4px rgba(60, 47, 47, 0.818);
+ 
+ }
+ 
+ #delicious{font-size: 40px;
+ font-family:cursive;  
+ color:rgb(250, 158, 92);
+ }
+ .COLOR{
+  background-color: rgb(237, 234, 234);
+   
+ }
+
+
+ .COLOR:hover{
+    /* background-color: rgb(116, 52, 6); */
+     background-color: #e67e0e;
+    -webkit-transition: background-color 2000ms linear;
+    -ms-transition: background-color 2000ms linear;
+    transition: background-color 2000ms linear; 
+
+ 
+ }
+ 
+ #paragraph{
+     color: rgb(169, 128, 103);
+     font-size: 21px;
+ }
+.navbar:hover{
+    box-shadow:0 0 17px 1px
+    #00fffc;
+       
+}
+#food-heading{
+color: rgb(237, 123, 24);
+position: absolute;
+left: 11px;
+top: -15px;
+
+
+}
+@media (min-width:360px) and (max-width: 768px) {
+    .footer{
+        display: block !important;
+        margin-left: -140px !important;
+        text-align: center;
+        padding-left: 30px !important;
+        font-size: 18px !important;
+        background-color: rgb(191, 186, 186) !important;
+        color: black !important;
+        width: 100vw;
+    }
+    #footer-text{
+        color: white !important;
+    }
+}
+
+.footer{
+display: flex;
+gap: 90px;
+ margin-left: 20px; 
+ margin-right: 20px;
+padding-left: 120px;
+background-color: rgb(137, 91, 6);
+color: white;
+font-family: cursive;
+font-size: 17px;
+}
+.footer-1{
+    background-color: black;
+}
+#footer-text{
+    color: rgba(175, 250, 35, 0.905); 
+    font-family: 'Times New Roman', Times, serif;
+}

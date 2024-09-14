@@ -1,0 +1,134 @@
+.subcard-1{
+
+
+width: 300px;
+background-color: yellow;
+
+
+}
+.sub-card2{
+
+    
+ 
+} 
+
+
+/* 
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.subcard-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.subcard-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subcard-2 img {
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.subcard-2 h2 {
+    margin: 10px 0;
+    text-align: center;
+} */
+
+
+
+ 
+.main {
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: flex-start;
+    gap: 20px; 
+    padding: 20px; */
+    width: 380px;
+    display: inline-block;
+     padding: 20px;
+  
+
+
+}
+
+@media (min-width:360px) and (max-width: 768px) {
+   
+    .card{
+margin: 30px;
+margin-left: 40px;
+
+
+    }
+    .card-img{
+ 
+    }
+    .card-dis{
+   
+    }
+}
+
+
+.card{
+
+   display: inline-block;
+   /* background-color: rgb(180, 205, 68); */
+  border: 2px solid rgb(214, 65, 45);
+   border-radius: 20px;
+   color: white;
+   height: 430px;
+ text-align: center;
+/* background-color: rgb(123, 16, 64); */
+background-color: rgb(112, 112, 113);
+}
+.card-img{
+    background-color: white;
+    width: 377px;
+    /* border-radius: 18px; */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 50px;
+  
+}
+.card-dis{
+    background-color: rgb(0, 0, 0);
+    /* border-radius: 13px; */
+    
+     border-bottom-right-radius: 20px;
+     border-bottom-left-radius: 20px;
+ /* border-top-left-radius: 40px; */
+
+    width: 377px;
+    height: 250px;
+     position: relative;
+    top: -19px; 
+text-align: left;
+font-family: 'Times New Roman', Times, serif;
+
+}
+#text-left{
+   padding-left: 20px;
+   padding-top: 20px;
+    
+}
+/* .card img {
+    border-radius: 8px;
+    margin-bottom: 20px;
+} */
+
+ /* .card h2 {
+    margin: 10px 0;
+    text-align: left;
+}   */

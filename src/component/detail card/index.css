@@ -1,0 +1,121 @@
+@media (min-width:360px) and (max-width: 768px){
+    .detail-main{
+background-image: none !important;
+background-color: black !important;
+}
+.sub-detail{
+    margin-left: 20px !important;
+    margin-top: 430px !important;
+}
+.cart-item{
+    margin-left: -820px !important;
+    margin-top: 800px !important;
+}
+}
+.detail-main{
+background-image: url('../../assets/hamburger-fries-with-drink-table_1021856-1920.avif');
+background-repeat: round;
+height: 100vh;
+width: 100vw;
+color: white;
+
+}
+.sub-detail{
+     /* backdrop-filter:blur(19px);   */
+     backdrop-filter: blur(54px) contrast(1.5);
+    width: 450px;
+    height: 420px;
+    color: white;
+    margin-left: 400px;
+   position: absolute;
+   top: 85px;
+   border: 5px solid rgb(161, 202, 14);
+ 
+}
+.sub-detail-img{
+ 
+    border: 3px solid rgb(219, 93, 43);
+    text-align: center;
+   border-radius: 20px;
+   width: 444px;
+
+}
+#sub-detail-pic{
+    border-radius: 20px;
+}
+.sub-detail-text{
+    margin-left: 20px;
+    font-family:'Times New Roman', Times, serif ;
+    font-size: 25px;
+   color: white;
+
+}
+.cart-item{
+    /* border: 2px solid white;
+    width: 200px; */
+    /* height: 300px; */
+    position: absolute;
+    top: 178px;
+    left: 920px;
+    backdrop-filter: blur(12px) ;
+  
+   
+}
+
+#text-edit{
+    color:red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+}
+#text-color{
+    color: white;
+    font-size: 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cancelbtn{
+    
+   
+  width: 8.5em;
+  height: 3em;
+
+  height: 39px; 
+  border-radius: 30em;
+  font-size: 16px;
+
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  border: none;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  z-index: 1;
+
+  /* background-color: rgb(237,237,237,.1); */
+  background-color: rgb(237, 237, 237,.4);
+      backdrop-filter:blur(14px);
+  
+  margin-left: 15px;
+  font-weight: 550;
+  }
+  .cancelbtn::before{
+      content: "";
+      width: 0;
+      height: 3em;
+      border-radius: 30em;
+      position: absolute;
+      top: 0;
+      left: 0;
+   
+      background-image: linear-gradient(to right,#6e2459 0%,#ee7519 100%);
+      transition: 1.5s ease;
+      display: block;
+      z-index: -1;
+  color: white;
+  }
+  
+  .cancelbtn:hover::before{
+  
+  
+      width: 9em;
+  
+  }
